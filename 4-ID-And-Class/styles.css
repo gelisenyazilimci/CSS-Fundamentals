@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a {
+  font-family: sans-serif;
+}
+
+
+h1 {
+  color: blue;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+}
+/*--------------------------------------------------------------------- */
+/*Burası önemli!!!!!*/
+/* genellikle footer'lar sayfanın en altında yer alır ve bu yazı tipleri küçük olmak zorundadır ve fotter içerisindeki p elementine etki ettik burada */
+/*106. satırda footer elementini bulabilirsiniz. */
+/*--------------------------------------------------------------------- */
+footer p {
+  font-size: 12px;
+  color: #999;
+}
+article p { font-style: italic; }
