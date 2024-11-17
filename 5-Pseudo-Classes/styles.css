@@ -77,3 +77,39 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+/*--------------------------------------------------------------------- */
+
+/*.first-li {*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*--------------------------------------------------------------------- */
+/*Pseudo-Classes*/
+/*Pseudo-Classes, bir elementin durumunu belirtmek için kullanılır. */
+/*Pseudo-Classes, bir elementin belirli bir durumda nasıl görüneceğini belirtmek için kullanılır. */
+
+/* Aşağıdaki kullanım daha rahat bir kullanımdır, çünkü bu durumda sadece ilk li elementlerine etki eder. */
+li:first-child {
+  font-weight: bold;
+}
+
+/* Aşağıdaki kullanım daha karmaşıktır, çünkü bu durumda sadece ilk li elementlerine etki eder. */
+li:nth-child(1) {
+  font-weight: bold;
+}
+
+/* sonundaki li elemanına etki eder. */
+li:last-child {
+  font-weight: bold;
+}
+
+/* Aşağıdaki kullanım daha karmaşıktır, çünkü bu durumda sadece son li elementlerine etki eder. */
+
+li:nth-child(3) {
+  font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------------- */
+
