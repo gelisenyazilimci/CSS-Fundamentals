@@ -65,11 +65,13 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  float: left;
 }
 
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
+
 }
 
 h3 {
@@ -265,3 +267,20 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+/* Floats */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /*padding-left: 10px;*/
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+nav {
+  float: right;
+}
